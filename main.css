@@ -114,11 +114,26 @@ header{
   width: 1.75rem;                     /* 28px */         
   height: 0.125rem;                   /* 2px */
   background-color: var(--white);
+
+  transition: all 200ms ease-in-out;
 }
 
 .nav-burger a > span:not(:last-child){
   margin-bottom: 0.3125rem;           /* 5px span margin bottom*/ 
 }
+
+.cross span:nth-child(1){
+  transform: rotate(45deg);
+  transform-origin: 7px -2px;
+}
+.cross span:nth-child(2){
+  opacity: 0;
+}
+.cross span:nth-child(3){
+  transform: rotate(-45deg);
+  transform-origin: bottom left;
+}
+
 
 
 /* NAV BAR */
@@ -235,8 +250,6 @@ header{
   opacity: 0.9;
   transition: opacity 200ms ease-in-out;
 }
-
-
 
 
 

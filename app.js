@@ -4,6 +4,7 @@ const navBar = document.querySelector('.nav-bar');
 
 burger.addEventListener('click', function(){
     navBar.classList.toggle('nav-bar-active');
+    burger.classList.toggle('cross');
 })
 
 const prodLink = document.querySelector('.product-dropdown');
