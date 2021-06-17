@@ -27,4 +27,4 @@ Users should be able to:
 
 ## Author
 
-- Website - [Jonathan Koh](www.jonathankoh.dev)
+- Website - [Jonathan Koh](https://jonathankoh.dev/)
